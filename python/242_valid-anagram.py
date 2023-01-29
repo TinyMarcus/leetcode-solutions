@@ -3,7 +3,8 @@ class Solution:
         if len(s) != len(t):
             return False
 
-        lettersS, lettersT = {}, {}
+        lettersS = dict()
+        lettersT = dict()
 
         for i in range(len(s)):
             lettersS[s[i]] = 1 + lettersS.get(s[i], 0)
