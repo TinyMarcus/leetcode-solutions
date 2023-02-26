@@ -1,4 +1,5 @@
 # Container with most water (11): https://leetcode.com/problems/container-with-most-water/
+# Pattern: two pointers
 
 class Solution:
     def maxArea(self, height: list[int]) -> int:
