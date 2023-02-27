@@ -1,3 +1,6 @@
+# Sort colors (75): https://leetcode.com/problems/sort-colors/
+# Pattern: two pointers
+
 class Solution:
     def sortColors(self, nums: list[int]) -> None:
         """
