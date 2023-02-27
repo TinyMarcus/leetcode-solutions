@@ -36,7 +36,3 @@ class Solution:
             big_list.append(small_list)
         
         return big_list
-                
-
-
-        
